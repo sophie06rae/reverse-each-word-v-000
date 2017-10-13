@@ -1,5 +1,4 @@
 def reverse_each_word(sentence)
 new_array = sentence.split
-new_array.map {|word| word.reverse}
-new_array.join(" ")
+new_array.map {|word| word.reverse puts "#{{word}}"
 end
